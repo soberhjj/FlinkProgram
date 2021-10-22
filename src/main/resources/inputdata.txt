@@ -1,0 +1,3 @@
+sensor_id:102810,timestamp:1634706199,temperature:22.8
+sensor_id:102110,timestamp:1634720599,temperature:17.8
+sensor_id:102117,timestamp:1634619799,temperature:25.5
