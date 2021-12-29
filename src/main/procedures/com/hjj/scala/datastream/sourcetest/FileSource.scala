@@ -7,7 +7,7 @@ import org.apache.flink.streaming.api.scala._
  */
 object FileSource {
   def main(args: Array[String]): Unit = {
-    //创建执行环境
+    //创建流处理执行环境（流处理执行环境是StreamExecutionEnvironment,批处理执行环境是ExecutionEnvironment）,(批处理环境用的是DataSet API,批处理环境用的是DataStream API)
     val streamEnv = StreamExecutionEnvironment.getExecutionEnvironment
     streamEnv.setParallelism(2)
 
