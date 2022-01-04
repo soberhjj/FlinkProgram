@@ -2,7 +2,6 @@ package com.hjj.scala.datastream.sourcetest
 
 import java.util.Properties
 
-import org.apache.flink.api.common.functions.RichFlatMapFunction
 import org.apache.flink.api.common.serialization.SimpleStringSchema
 import org.apache.flink.streaming.api.scala._
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer
